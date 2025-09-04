@@ -7,6 +7,11 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+
+<meta name="twitter:title" content="Title">
+<meta name="twitter:description" content="Cool description">
+<meta name="twitter:image" content="the image link">
+<meta name="twitter:card" content="summary_large_image">
   </head>
   <body>
     <nav id="desktop-nav">
@@ -23,7 +28,9 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Saef Galia</div>
+      <div class="logo">
+        <img src="assets/Logo.png.png" alt="logo">
+      </div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -58,19 +65,21 @@
             class="btn btn-color-2"
             onclick="window.open('./assets/UpdatedCV.pdf')"
           >
-            Download CV
+            Last ned CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https:www.linkedin.com/in/saef-galia-7a49711a2/'"
+          <a href="https://www.linkedin.com/in/saef-galia-7a49711a2/" target="_blank">
+          <img 
+          src="./assets/linkedin.png" 
+          alt="My LinkedIn profile" 
+          class="icon"
           />
+          </a>
+
           <img
             src="./assets/github.png"
             alt="My Github profile"
@@ -114,8 +123,8 @@
           </div>
           <div class="text-container">
             <p>
-              Selvdisiplinert og engasjert person med solid bakgrunn innen økonomi,
-             stor interesse for moderne teknologi og motivasjon til å kombinere dette 
+             Selvdisiplinert og engasjert person med solid bakgrunn innen økonomi,
+             stor interesse for moderne teknologi og motivasjon til å kombinere dette
              med ulike forretningsområder for å skape verdi og utvikling!
             
         
